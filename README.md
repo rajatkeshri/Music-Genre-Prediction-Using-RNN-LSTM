@@ -14,7 +14,7 @@ For this project, you would require to have the following packages -
 </ul>
 Apart from this, you would be required to have ffmpeg installed in your system and added to the path. This is for mp3 to wav conversion code.
 <br>
-# Dataset-preprocessing
+# Requirements 
 Here, the dataset used is GTZAN music dataset found from this link http://marsyas.info/downloads/datasets.html
 <br>
 The Dataset Preprocessing.py file is used to preprocess the data. It creates a json file with all the lables or categories and features of each song. The features are extracted using the mfcc. Each song is split into 10 segments and then for each segment the mfcc is extracted and stored in the json file. The number of segments is a variable parameter which can be chosen by you. 
